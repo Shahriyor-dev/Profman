@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 30px 0;
+  box-shadow: 0px 2px 4px rgba(115, 115, 115, 0.1);
+  background-color: #fff;
+}
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__button {
+  padding: 10px 18px;
+  background: #ef760d;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.header-info {
+  display: flex;
+}
+.header-phone {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 40px;
+}
+.header-phone__icon {
+  margin-right: 10px;
+}
+.header-text__number {
+  font-size: 16px;
+  line-height: 19px;
+  color: #3f3f3f;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.header-text__description {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #3f3f3f;
+}
+.header-pay {
+  display: flex;
+  align-items: flex-start;
+}
+.header-pay__icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+.header-pay__description {
+  font-size: 16px;
+  line-height: 19px;
+  color: #3f3f3f;
+  border-bottom: 1px solid #3f3f3f;
+}
+.hero {
+  padding: 80px 0;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-img {
+  margin-right: 56px;
+}
+.hero-title {
+  font-size: 35px;
+  line-height: 47px;
+  color: #2c237d;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.hero-works {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 38px;
+  flex-basis: 430px;
+}
+.hero-work {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 25%;
+  margin-bottom: 30px;
+}
+
+.hero-work-description {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #2c237d;
+  margin-top: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.hero-work-description:hover {
+  color: #ef760d;
+}
+.services {
+  padding: 0px 0 80px 0;
+}
+.services-title {
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 85px;
+}
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services-card {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 12%;
+  margin-bottom: 70px;
+  transition: color 0.3s ease-in-out;
+}
+.services-card-description {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-top: 51px;
+  margin-bottom: 0;
+}
+.services-card-description:hover {
+  color: #ef760d;
+}
+.services-card-wrapper {
+  padding: 15px;
+}
+.order {
+  padding-bottom: 80px;
+}
+.order-title {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #3f3f3f;
+  margin-bottom: 50px;
+}
+.order-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.order-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.order-counter {
+  font-size: 120px;
+  line-height: 146px;
+  font-weight: 900;
+  text-align: center;
+  color: #2c237d;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.order-description {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #3f3f3f;
+  max-width: 255px;
+  margin: 0 auto;
+}
+.about {
+  padding-bottom: 80px;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-text {
+  max-width: 445px;
+  margin-right: 120px;
+}
+.about-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #3f3f3f;
+}
+.about-description {
+  font-size: 16px;
+  line-height: 19px;
+  color: #3f3f3f;
+}
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.about-card {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 50%;
+  margin-bottom: 30px;
+}
+.about-card-descriptio {
+  font-size: 16px;
+  line-height: 19px;
+  color: #3f3f3f;
+  max-width: 160px;
+}
+.about-card-img {
+  margin-right: 10px;
+}
+.footer {
+  padding: 30px 0;
+  box-shadow: 0px -2px 4px rgba(115, 115, 115, 0.1);
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-rights {
+  font-size: 14px;
+  line-height: 17px;
+  color: #3f3f3f;
+}
+.footer-policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-policy-user {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #3f3f3f;
+}
+.footer-policy-conf {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #3f3f3f;
+}
+.footer-author {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #3f3f3f;
+}
+.remont {
+  padding: 80px 0;
+}
+.remont-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remont-title {
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+.remont-minor-title {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.remont-types {
+  display: flex;
+  justify-content: space-between;
+}
+.remont-type-name {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.remont-text {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.remont-econom {
+  max-width: 350px;
+}
+.remont-text-title {
+  font-size: 22px;
+  line-height: 27px;
+  color: #2c237d;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.remont-text-sutitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  padding: 20px 0;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+.remont-text-description {
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaa;
+}
+.remont-comfort,
+.remont-euro {
+  max-width: 350px;
+}
